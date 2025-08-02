@@ -6,8 +6,8 @@ name: bluefin-gts-camshaft
 description: "A custom bluefin image with 1Password and Firefox."
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/bluefin-gts
-image-version: stable
+base-image: ghcr.io/ublue-os/bluefin
+image-version: gts
 
 # module configuration, executed in order
 # you can include multiple instances of the same module
