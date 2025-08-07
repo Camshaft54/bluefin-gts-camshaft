@@ -28,7 +28,7 @@ modules:
   - type: dnf
     repos:
       copr:
-        - name: yuezk/globalprotect-openconnect
+        - yuezk/globalprotect-openconnect
     install:
       packages:
         - globalprotect-openconnect
