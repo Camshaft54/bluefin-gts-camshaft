@@ -25,5 +25,13 @@ modules:
       # fixing the browser integration and permission issues.
       - 1password
 
+  - type: dnf
+    repos:
+      copr:
+        - name: yuezk/globalprotect-openconnect
+    install:
+      packages:
+        - globalprotect-openconnect
+  
   - type: signing # this sets up the proper policy & signing files
 
