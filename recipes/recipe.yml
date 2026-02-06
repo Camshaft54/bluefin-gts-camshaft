@@ -15,7 +15,7 @@ modules:
   - type: rpm-ostree
     install:
       - firefox
-      - gamescope
+      - xpra
   - type: bling
     install:
       - 1password
