@@ -14,17 +14,11 @@ image-version: gts
 modules:
   - type: rpm-ostree
     install:
-      # We are installing Firefox here.
-      # Unlike Brave, Firefox is in the default Fedora repos,
-      # so we don't need to add a separate repo or keys.
       - firefox
-
+      - gamescope
   - type: bling
     install:
-      # This uses the special bling module to install 1Password correctly,
-      # fixing the browser integration and permission issues.
       - 1password
-
   - type: dnf
     repos:
       copr:
