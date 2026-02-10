@@ -15,7 +15,6 @@ modules:
   - type: rpm-ostree
     install:
       - firefox
-      - xpra
   - type: bling
     install:
       - 1password
