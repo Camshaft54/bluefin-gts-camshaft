@@ -15,9 +15,8 @@ modules:
   - type: rpm-ostree
     install:
       - firefox
-  - type: bling
-    install:
       - 1password
+      - 1password-cli
   - type: dnf
     repos:
       copr:
