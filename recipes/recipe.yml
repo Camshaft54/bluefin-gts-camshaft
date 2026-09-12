@@ -12,9 +12,10 @@ image-version: gts
 # module configuration, executed in order
 # you can include multiple instances of the same module
 modules:
-  - type:
+  - type: files
     files:
-      system: /
+    - source: system
+      destination: / 
   - type: rpm-ostree
     install:
       - firefox
